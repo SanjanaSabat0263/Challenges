@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Flexbox Layout</title>
+    <style>
+    body 
+    {
+    margin: 0;
+    height: 100vh; 
+    }
+
+   .flex-container 
+  {
+    display: flex;
+    justify-content:center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    height: 100%; 
+    background-color: yellow; 
+  }
+      .flex-item 
+      {
+        display: flex;
+        width: 200px;
+        height: 200px;
+        background-color: red;
+      }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+      <h2>Flex-Box Container</h2>
+        <div class="flex-item" 
+        style= "align-items: center; justify-content: center; flex-wrap: wrap;margin: 10px;"
+        >1</div>
+        <div class="flex-item"
+        style= "align-items: center; justify-content: center; flex-wrap: wrap;margin: 10px;"
+        >2</div>
+        <div class="flex-item"
+        style= "align-items: center; justify-content: center; flex-wrap: wrap;margin: 10px; "
+        >3</div>
+    </div>
+</body>
+</html>
