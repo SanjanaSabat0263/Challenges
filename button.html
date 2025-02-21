@@ -1,62 +1,12 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    
-
-    <title>
-        Button submit
-    </title>
-    <style >
-       input{
-           text-align: center;
-           padding: 5px;
-           font-size: center;
-           justify-content: center;
-           justify-items: center;
-           border-radius: 5px;
-           
-       } 
-       .sub{
-          text-align: left;
-          text-decoration: 5px;
-          padding: 8px;
-          justify-content: 5px;
-          justify-items: 8px;
-          
-       }
-       form{
-         background-color: #ead5d6; 
-         padding: 8px;
-         margin-bottom: center;
-       }
-           
-       .btn{
-           background-color: aqua;
-           margin-bottom: center;
-           text-align: center;
-           justify-content: 8px;
-           justify-items: 5px;
-           border-radius: 6px;
-       }
-       .btn:hover{
-           background-color: rgb(60, 196, 230);;
-           
-       }
-    </style>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style A Button with Tailwind CSS</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
-    <form >
-      <label >
-          Email:
-    <input type="email" name="Email" id="Email" />
-      </label>  
-    <div class="sub">
-   <button class="btn" type="submit">
-       Submit
-   </button>
-    
-    </div>
-    </form>
+    <button class="bg-blue-500 p-6 rounded-lg hover:bg-blue-700" type="submit">Submit</button>
 </body>
 </html>
